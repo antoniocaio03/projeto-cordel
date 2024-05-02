@@ -1,0 +1,137 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'verdana';
+    src: url("fontes/verdana.ttf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'verdana2';
+    src: url("fontes/verdana-bold.ttf") format('opentype');
+    font-weight: bold;
+}
+
+body{
+    min-height: 100vh;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho{
+   background-color: black;  
+        
+   margin: auto;
+    padding: 40px 0px 40px 0px;
+    
+}
+
+h1{
+    color: white;
+    
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+   
+    font-size: 10vw;
+
+    /* Para determinar a expessura da fonte */
+    font-weight: 900px;
+    
+
+}
+
+.externo{
+    
+    font-family: "verdana2", sans-serif;
+}
+#texto-branco{
+    color: white;
+    text-align: center;
+    font-family: "verdana", sans-serif;
+}
+
+#q1{
+    background-image: url('imagens/background001.jpg');
+    padding: 25px 0px 25px 15px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
+    
+}
+
+#q2{
+    background-image: url('imagens/background002.jpg');
+    position: relative;
+    padding: 25px 0px 25px 15px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
+}
+
+section{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    font-size: 3.5vw;
+}
+.quadrado{
+   
+   background-color: rgba(0, 0, 0, 0.364);
+   text-shadow: 1px 1px 0px black;
+   padding: 7px;
+   font-family: "Sriracha";
+   text-align: left;
+   color: white;
+   display: inline-block;
+   font-size: 1em;
+   
+   
+}
+
+
+.cordel{
+    
+    text-align: left;
+    margin: 40px 10px 35px 30px;
+    font-family: "Sriracha"; 
+    font-size: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+footer{
+    background-color: black;
+    font-family: "verdana", sans-serif;
+    font-weight: normal;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.texto-rodape{
+    color: white;
+    text-align: center;
+    font-family: "verdana", sans-serif;
+    
+}

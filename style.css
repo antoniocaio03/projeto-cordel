@@ -65,7 +65,7 @@ h1{
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: center center;
     box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
     
 }
@@ -77,7 +77,7 @@ h1{
     background-repeat: no-repeat;
     background-size:cover ;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: center center;
     box-shadow: inset 8px 6px 20px 0px rgba(0, 0, 0, 0.568); 
 }
 
